@@ -1,0 +1,38 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Digital Kavach AI - safer digital India (demonstration prototype)</title>
+  <meta name="description" content="Digital Kavach AI: a student prototype for scam checks, profile risk checks, image analysis and impersonation reporting.">
+  <link rel="icon" href="/assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+  <div class="banner" role="note"><strong>Demonstration prototype.</strong> Results marked as sample or simulated are not real verification. No government identity check takes place.</div>
+  <div class="shell">
+    <header class="topbar">
+      <button class="menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false" aria-controls="sidebar"></button>
+      <img src="/assets/logo.svg" alt="" width="30" height="34">
+      <span class="topbar-title">Digital Kavach AI</span>
+    </header>
+    <div class="scrim" id="scrim" hidden></div>
+    <nav class="sidebar" id="sidebar" aria-label="Main navigation">
+      <a class="brand" href="#/dashboard">
+        <img src="/assets/logo.svg" alt="" width="34" height="38">
+        <span><strong>Digital Kavach AI</strong><small>One trusted identity.<br>Safer digital India.</small></span>
+      </a>
+      <div id="navLinks"></div>
+      <div class="identity-chip" id="identityChip"></div>
+    </nav>
+    <main id="main" tabindex="-1"><div id="view" aria-live="polite"></div></main>
+  </div>
+  <footer class="site-footer">
+    <p><strong>Team SHELD NETWORK</strong> - Sakhamuri Meghanath (Team Leader), Tumati Krishanth. Registration ID HSC|AP|00132. Amrita Vishwa Vidyapeetham, Amaravati Campus. Viksit Bharat Young Leaders Dialogue 2027, Hack for Social Cause.</p>
+    <p>Digital Kavach AI is a student prototype, not a certified security product. For real fraud, call 1930 or visit cybercrime.gov.in.</p>
+  </footer>
+  <div class="toast" id="toast" role="status" hidden></div>
+  <script type="module" src="/js/app.js"></script>
+</body>
+</html>

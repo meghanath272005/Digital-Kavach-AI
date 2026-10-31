@@ -1,0 +1,13 @@
+{
+  "name": "digital-kavach-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Digital Kavach AI demonstration prototype (SHELD NETWORK). Frontend is dependency-free ES modules served by the Python server.",
+  "scripts": {
+    "start": "cd backend && python3 -m app",
+    "dev": "cd backend && python3 -m app",
+    "test": "python3 -m unittest discover -s tests -t .",
+    "check:js": "node --check frontend/js/app.js"
+  },
+  "license": "UNLICENSED"
+}

@@ -1,0 +1,8 @@
+.env
+__pycache__/
+*.pyc
+backend/data/
+*.sqlite3
+backend/models/*.joblib
+node_modules/
+.venv/
